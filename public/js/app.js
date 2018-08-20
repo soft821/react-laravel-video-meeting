@@ -41062,7 +41062,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var APP_KEY = '83c9614fa128f8d6027a';
+var APP_KEY = '9d45315969598e674ecc';
 
 var App = function (_Component) {
     _inherits(App, _Component);
@@ -41115,7 +41115,7 @@ var App = function (_Component) {
 
             this.pusher = new __WEBPACK_IMPORTED_MODULE_3_pusher_js___default.a(APP_KEY, {
                 authEndpoint: '/pusher/auth',
-                cluster: 'ap2',
+                cluster: 'ap1',
                 auth: {
                     params: this.user.id,
                     headers: {
